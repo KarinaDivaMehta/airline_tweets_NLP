@@ -1,6 +1,6 @@
 # Airline Tweet Sentiment and Topic Analysis
 
-This project applies a full NLP pipeline to 14,640 tweets directed at six major US airlines — American, Delta, Southwest, United, US Airways, and Virgin America — collected over an eight-day period in February 2015. The goal was to move from raw social media text to interpretable models of language, sentiment, and topic structure, without relying on the pre-existing crowd-sourced labels.
+This project applies a full NLP pipeline to 14,640 tweets directed at six major US airlines ; American, Delta, Southwest, United, US Airways, and Virgin America ; collected over an eight-day period in February 2015. The goal was to move from raw social media text to interpretable models of language, sentiment, and topic structure, without relying on the pre-existing crowd-sourced labels.
 
 The project was completed as part of DS 5001: Text as Data at the University of Virginia.
 
