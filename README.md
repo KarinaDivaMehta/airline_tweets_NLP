@@ -17,6 +17,7 @@ The source data is the [Twitter US Airline Sentiment dataset](https://www.kaggle
 The project follows a structured text analytics workflow across two notebooks.
 
 **text_preprocessing.ipynb** handles data cleaning before we move onto text preparation for modeling, ensuring column extraction, data type consistency, handling missing values etc.
+
 **text_preparation.ipynb** handles ingestion, parsing, and vectorization. The raw CSV is parsed into three core tables: a library table (LIB) with one row per airline summarizing metadata, a token-level corpus table (CORPUS) indexed by airline, day, tweet, sentence, and token position, and a vocabulary table (VOCAB) containing term frequencies, TF-IDF weights, POS tags, and stemmed forms. The corpus contains 284,463 tokens across 9,688 unique vocabulary terms. TF-IDF is computed at the tweet level and L2-normalized for downstream modeling.
 
 **text_modelling.ipynb** applies four unsupervised models to the processed corpus: PCA, LDA topic modeling, VADER sentiment analysis, and Word2Vec embeddings.
